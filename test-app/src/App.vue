@@ -15,20 +15,26 @@
     </ul> -->
     <!-- <router-view></router-view> -->
 
-    <CallApi/>
+    <!-- <CallApi/> -->
+    <Products/>
+    <AddCars/>
     
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
-import CallApi from './components/CallApi.vue';
+// import CallApi from './components/CallApi.vue';
+import Products from './components/Products.vue'
+import AddCars from './components/AddCars.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    CallApi,
+    // CallApi,
+    Products,
+    AddCars
   }
 }
 </script>
