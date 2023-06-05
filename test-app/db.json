@@ -13,19 +13,24 @@
   ],
   "bikes": [
     {
-      "name": "Hero",
-      "price": "1000",
+      "name": "BMW",
+      "price": "1200",
       "id": 1
     },
     {
-      "name": "Honda",
-      "price": "1500",
+      "name": "Hero",
+      "price": "102",
       "id": 2
     },
     {
-      "name": "BMW",
-      "price": "10000",
+      "name": "TVS",
+      "price": "120",
       "id": 3
+    },
+    {
+      "name": "Ninja",
+      "price": "1330",
+      "id": 4
     }
   ],
   "posts": [

@@ -25,9 +25,13 @@
                 </thead>
                 <tbody>
                     <tr v-for="(bike,index) in allBikes" v-bind:key="index"> 
-                        <td>{{ bike.id }}</td>
+                        <td>{{ index+1 }}</td>
                         <td>{{ bike.name }}</td>
                         <td>{{ bike.price }}$</td>
+                        <td>{{ bike.id }}</td>
+                        <td >
+                            <button @click="deleteBike(bike.id); reloadPage();">Delete</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -48,17 +52,20 @@ export default {
         return{
             name:"",
             price:"",
-            columns:["Id","Name","Price"],
+            columns:["Sr No.","Name","Price","UID","Delete"],
         }
     },
     computed:mapGetters(['allBikes']),
     methods:{
-        ...mapActions(['getBikes','addBikes']),
+        ...mapActions(['getBikes','addBikes','deleteBike']),
         onSubmit(){
             this.addBikes({
                 name:this.name,
                 price:this.price,
             });
+        },
+        reloadPage() {
+          window.location.reload();
         }
 
     },
