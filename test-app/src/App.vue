@@ -16,8 +16,9 @@
     <!-- <router-view></router-view> -->
 
     <!-- <CallApi/> -->
-    <Products/>
-    <AddCars/>
+    <!-- <Products/> -->
+    <!-- <AddCars/> -->
+    <Bikes/>
     
   </div>
 </template>
@@ -25,16 +26,18 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 // import CallApi from './components/CallApi.vue';
-import Products from './components/Products.vue'
-import AddCars from './components/AddCars.vue'
+// import Products from './components/Products.vue'
+// import AddCars from './components/AddCars.vue'
+import Bikes from './components/Bikes.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // CallApi,
-    Products,
-    AddCars
+    // Products,
+    // AddCars,
+    Bikes
   }
 }
 </script>

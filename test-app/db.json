@@ -1,14 +1,36 @@
 {
   "cars": [
     {
-      "name": "qqqq",
+      "name": "Audi",
       "price": "1000",
       "id": 1
     },
     {
-      "name": "qaaaaaaa",
-      "price": "1111111",
+      "name": "BMW",
+      "price": "1500",
       "id": 2
+    }
+  ],
+  "bikes": [
+    {
+      "name": "Hero",
+      "price": "1000",
+      "id": 1
+    },
+    {
+      "name": "Honda",
+      "price": "1500",
+      "id": 2
+    },
+    {
+      "name": "qqqqqq",
+      "price": "111111",
+      "id": 3
+    },
+    {
+      "name": "BMW",
+      "price": "1500",
+      "id": 4
     }
   ],
   "posts": [
